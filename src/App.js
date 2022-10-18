@@ -8,21 +8,14 @@ function App() {
 
   useEffect(() => {
     const lastIndex = people.length - 1
-    if (index < 0) {
-      setIndex(lastIndex)
-    }
-    if (index > lastIndex) {
-      setIndex(0)
-    }
+
+    if (index < 0) setIndex(lastIndex)
+    if (index > lastIndex) setIndex(0)
   }, [index, people])
 
   useEffect(() => {
-    let slider = setInterval(() => {
-      setIndex(index + 1)
-    }, 5000)
-    return () => {
-      clearInterval(slider)
-    }
+    let intervalId = setInterval(() => setIndex(index + 1), 5000)
+    return () => clearInterval(intervalId)
   }, [index])
 
   return (
