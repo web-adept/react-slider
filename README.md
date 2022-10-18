@@ -1,6 +1,8 @@
 
- ##[Link]([https://linktodocumentation](https://web-adept.github.io/react-slider/))
- 
+
+ ```bash
+  [Link]([https://linktodocumentation](https://web-adept.github.io/react-slider/))
+```
 
 # Getting Started with Create React App
 
