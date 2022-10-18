@@ -1,4 +1,6 @@
-<a href="https://web-adept.github.io/react-slider/">Link</a>
+
+ ##[Link]([https://linktodocumentation](https://web-adept.github.io/react-slider/))
+ 
 
 # Getting Started with Create React App
 
